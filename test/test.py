@@ -1,7 +1,10 @@
+def convert(degrees):
+    return((degrees*3.14)/180)
 degrees = 150
+radians = convert(degrees)
 print("Degrees:", degrees)
-conversion = (degrees / 180) * (3.14)
-print("Radians:", conversion)
+print("Radians:", radians)
+
 
 student1 = 90.0
 student2 = 80.0
